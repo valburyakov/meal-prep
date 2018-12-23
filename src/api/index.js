@@ -5,8 +5,8 @@ export default {
     return axios.get('https://api.edamam.com/search', {
       params: {
         q: plan,
-        app_id: 'c83c0985',
-        app_key: '39054c5fc6b17f6064b542cada2ad4b6',
+        app_id: process.env.VUE_APP_EDAMAM_APP_ID,
+        app_key: process.env.VUE_APP_EDAMAM_API_KEY,
         from: 0,
         to: 9
       }
