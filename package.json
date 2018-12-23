@@ -9,8 +9,12 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "@babel/polyfill": "^7.0.0-rc.1",
+    "axios": "^0.18.0",
+    "firebase": "^5.7.0",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",
+    "vuetify": "^1.3.0",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
@@ -25,6 +29,7 @@
     "babel-jest": "^23.6.0",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0-0",
+    "vue-cli-plugin-vuetify": "^0.4.6",
     "vue-template-compiler": "^2.5.17"
   }
 }
